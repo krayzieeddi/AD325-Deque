@@ -10,7 +10,7 @@ public class Deque<Item> implements Iterable<Item> {
     public Deque() {
         front = null;
         end = null;
-    } // end of constructord
+    } // end of constructor
 
     private static class Node<Item> {
         Item data;
@@ -116,9 +116,6 @@ public class Deque<Item> implements Iterable<Item> {
             return result;
         }
 
-        public void remove() {
-            Iterator.super.remove();
-        }
     }
 
     // unit testing (required)
